@@ -1,0 +1,5 @@
+Entidade
+
+Algo de importancia para um usuario ou organização que prescisa ser repesentado em um banco de dados, ele pode ser representado em um tema, topico ou conceito de negocio e cada objeto de uma entidade é denominado de instância de entidade 
+Uma entidade pode ter existencia fisica ou abstratada como Empregados, Livros, Venda
+Uma boa pratica para criar uma entidade é deixar no singular 
