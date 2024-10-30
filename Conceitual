@@ -3,3 +3,81 @@ Entidade
 Algo de importancia para um usuario ou organização que prescisa ser repesentado em um banco de dados, ele pode ser representado em um tema, topico ou conceito de negocio e cada objeto de uma entidade é denominado de instância de entidade 
 Uma entidade pode ter existencia fisica ou abstratada como Empregados, Livros, Venda
 Uma boa pratica para criar uma entidade é deixar no singular 
+
+
+
+
+Relacionamento 
+- Associação de elementos de uma ou mais entidade 
+Por que precisamos ? entidades são armazenadas em tabelas diferentes, logo precisamos de um relacionamento para responder as perguntas especificas do usuario
+- Representado por um losango 
+Grau de Relacionamento
+- Unário
+- Binário 
+- Ternário
+Mais comuns: Binários
+
+
+
+Modelagem de Dados - Chave Primária, Estrangeira e outras
+Chaves
+- Consiste em uma ou mais colunas de uma relação cujos valores são usados para identificar uma forma exclusiva de uma linha ou conjunto de linha 
+Pode ser única(identifica uma linha) ou não-única(identifica varias linhas)
+- Unicas(Unique) = Candidata, Composta, Primária, Surrogada(Substituta)
+- Não-Única(Non-Unique): Estrangeira
+
+Chave Candidata
+- Atributo ou grupo de atributo que tem potencial para se tornar uma chave primária
+- chave candidata que não seja utilizada como chave primária, ela se tornará uma chave alternativa 
+Ex: Campos Num_Matricula e CPF em uma tabela de registro de alunos
+
+Chave Primária
+- Chave candidata escolhida para ser a chave principal na relação
+- identifica de forma exclusiva os registros em uma tabela, não podendo ter repetição de valores e nem tampouco valor nulo
+- Primary Key / PK
+- Se estiver sublinhada, é uma chave primária
+
+
+Chave Estrangeira 
+- Uma coluna de uma tabela que estabelece um relacionamento com a Chave Primária ( PK ) de outra tabela
+- É a partir da chave estrangeira (FK) que sabemos com qual registro em outra tabela um registro está relacionado
+- baseadas em valores de dados, classificadas como ponteiros lógicos
+
+Chave Composta
+- Constituida por 2 ou mais atributos (colunas)
+- Geralmente empregada quando não é mais possivel utilizar uma única coluna de uma tabela para identificar de forma exclusiva seus registros 
+-  Não se repete
+
+Chave Surrogata/Substituta
+- Chave com valor número, único, adicionado a uma relação para servir como chave primária 
+- Não possui significado para outros usuários e geralmente fica escondida nas aplicações
+- As chaves subs são frequentemente usadas no lugar de uma chave primaria composta
+
+
+Instruções para criação de chaves primárias e chaves estrangeira
+- um valor de uma chave estrangeira deve corresponder a um valor existente em uma chave primaria associada (ou valor de chave unica). Caso ao contrário, deve ser Nulo ( NULL )
+- Uma chave estrangeira deve referenciar uma chave primária ou uma coluna de chave única
+
+Conceito de dominio
+- Definir tipos de dados e especificar valores válidos em um campo
+
+
+
+Modelagem de Dados - O que são Cardinalidades
+Cardinalidade
+- diz respeito ao número de itens que se relacionam nas entidades, a cardinalidade pode ser máxima ou minima, significando respectivamente os números minimos
+ e máximos de instâncias de cada entidade associadas no relacionamento
+
+Cardinalidade Máxima
+- Trata-se do numero maximo de instancia de entidade que podem participar em um relacionamento, Pode ser 1 ou N(Muitos)
+
+Cardinalidade Minima
+- Numero minimo de instancia de entidade que devem obrigatoriamente participar em um relacionamento; zero é participação opcional e um é obrigatória
+
+(1,1)
+o primeiro representa a cardinalidade minima e o segundo a cardinalidade maxima
+
+
+
+
+Modelagem de Dados - Restrições de Integridade
