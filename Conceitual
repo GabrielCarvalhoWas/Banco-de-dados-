@@ -81,3 +81,24 @@ o primeiro representa a cardinalidade minima e o segundo a cardinalidade maxima
 
 
 Modelagem de Dados - Restrições de Integridade
+Integridade de dados
+- É a manutenção e garantia da consistência e precisão dos dados, sendo um aspecto crítico no design, implementação e uso de sistemas de armazenamento 
+de dados
+- A integirdade é atingir por meio da aplicação de Restrições de Integridade
+
+Restriçõe de Integridade 
+- Integridade Referencial
+- Integridade de Domínio
+- Integridade de Vazio
+- Integridade de Chave
+- Integridade Definida pelo Usuário 
+
+
+Integridade de Dominio
+= são valores inseridos em uma columa devem obedecer a defiiniçãio dos valores que são permitidos para essa coluna, os valores do dominio
+Exemplo: em uma coluna que armazena preços de mercadorias, os valores admitidos são do dominio numeros, apenas numeros
+Seus fatores: tipo de dado de campo, representação interna do tipo de dado, presença ou não do dado, intervalo de valores do dominio e conjuntos de valores discretos
+
+Integridade Referencial
+- uma Integridade Referencial se assegura que valores de uma coluna em uma tabela são válidos baseados nos valores em outra tabela relacionada
+Exemplo: Se um produto de ID 523 foi cadastrado em umma tabela de Vendas, então um produto com ID 523 deve existir na tabela de produtos relacionada
