@@ -104,3 +104,37 @@ Seus fatores: tipo de dado de campo, representação interna do tipo de dado, pr
 Integridade Referencial
 - uma Integridade Referencial se assegura que valores de uma coluna em uma tabela são válidos baseados nos valores em outra tabela relacionada
 Exemplo: Se um produto de ID 523 foi cadastrado em umma tabela de Vendas, então um produto com ID 523 deve existir na tabela de produtos relacionada
+
+
+Modelagem de Dados - Diagramação - Notações Gráficas
+- Representar de forma grafica um MER 
+- Facilita a modelagem e comunicação entre os membros de equipe de desenvolvimento, permitindo que todos falem a mesma lingua no processo 
+- Foi proposta originalmente por Peter Chen 
+
+Notações graficas mais utilizadas:
+- IdeF1X
+- BACHMAN
+- Min-Max
+- Pe de galinha
+- Mrtin
+- UML
+- Peter Chen
+
+
+
+Diagramação de Peter Chen
+- Utiliza retangulos para representar entidades, losangos para relacionamentos e atributos por elipses
+
+
+Diagramação de Pe de Galinhas
+- São representados por linhas 
+- linha vertiral = cardinalidade para um 
+= para varios lugares = cardinalidade para muitos
+- Se tiver um zero na linha = é uma cardinalidade opcional 
+- Temos relacionamento forte que é representado por uma linha solida 
+- Um Relacionamento fraco é representado por uma linha tracejada 
+
+
+Modelagem de Dados - Dicionário de Dados
+- É um repositório de MetaDados 
+- Importante implementação para quando tiver muitos dados sobre um produto, saber o que deve e o que não deve fazer 
