@@ -14,7 +14,7 @@ Por que precisamos ? entidades são armazenadas em tabelas diferentes, logo prec
 Grau de Relacionamento
 - Unário
 - Binário 
-- Ternário
+- Ternário : mais de 2 entidade (ocorrencia )
 Mais comuns: Binários
 
 
@@ -76,6 +76,8 @@ Cardinalidade Minima
 
 (1,1)
 o primeiro representa a cardinalidade minima e o segundo a cardinalidade maxima
+
+Cardinalidade é o conceito de ocorrencias 
 
 
 
