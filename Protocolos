@@ -1,0 +1,30 @@
+O IP é da Interface, não da máquina:
+
+Em redes, um endereço IP é atribuído a uma interface de rede (ou seja, a "porta" pela qual a máquina se conecta à rede) e não ao dispositivo (computador, roteador, etc.) em si.
+Isso significa que se um dispositivo tiver várias interfaces de rede (como um roteador), cada interface terá seu próprio IP.
+Cada Interface tem seu IP:
+
+Cada interface de rede precisa de um endereço IP exclusivo dentro de uma rede para que possa ser identificada e se comunicar na rede.
+Máquinas com mais de uma interface são multi-homed:
+
+Se um dispositivo, como um servidor ou computador, tem várias interfaces de rede (por exemplo, conexões Wi-Fi e Ethernet simultâneas), ele é chamado de multi-homed.
+Isso significa que ele pode ter múltiplos IPs, um para cada interface.
+Roteadores são multi-homed:
+
+Roteadores sempre têm várias interfaces de rede, pois sua função é conectar diferentes redes entre si. Cada interface em um roteador tem um IP diferente, permitindo que ele encaminhe dados entre essas redes.
+Multi-homed nem sempre são roteadores:
+
+Nem todos os dispositivos multi-homed (com várias interfaces de rede) são roteadores. Por exemplo, um servidor com múltiplas interfaces pode ser multi-homed
+para se conectar a redes diferentes, mas não necessariamente atua como um roteador.
+
+
+
+
+Sub Redes FVLSM
+- Sub-redes FLSM (Fixed-Length Subnet Masking) é um método de divisão de redes IP em sub-redes menores,
+- onde todas as sub-redes têm o mesmo tamanho e a mesma máscara de sub-rede. Isso significa que cada sub-rede possui a mesma quantidade de endereços IP disponíveis para hosts.
+
+Características da FLSM:
+- Tamanho Fixo: Todas as sub-redes têm o mesmo número de endereços IP (hosts).
+- Máscara de Sub-rede Igual: A máscara de sub-rede é a mesma para todas as sub-redes, o que facilita o planejamento e a configuração da rede.
+- Eficiência: É mais simples de gerenciar, mas não otimiza o uso de endereços IP, pois cria sub-redes de tamanho fixo, independentemente do número necessário de hosts em cada sub-rede.
