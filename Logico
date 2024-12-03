@@ -1,0 +1,20 @@
+Modelo Relacional
+
+os dados são representados como tabelas (relações);
+▪ através de linhas (tuplas);
+▪ e colunas (atributos) com possíveis domínios definidos;
+▪ as operações sobre os dados são feitas por uma linguagem
+não procedural.
+
+
+Domínio
+▪ Conjunto de valores distintos que podem ser definidos a um
+atributo. Pode ser:
+▪ Domínio Discreto
+▪ Conjunto de valores distintos, definidos previamente.
+▪ Domínio Contínuo
+▪ Conjunto de valores permitidos dentro de um intervalo.
+▪ Domínio Aberto
+▪ Conjunto de valores permitidos, sem restrições.
+▪ Domínio Nulo (inaplicável ou desconhecido)
+▪ É um valor nulo, diferente de zero ou espaço em branco.
